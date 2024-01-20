@@ -31,14 +31,16 @@ body {
 }
 
 main {
-  margin-top: 8rem;
   width: 100vw;
-  height: 400vh;
+  margin-top: 8rem;
+  height: 200vh;
+  text-align: center;
 }
 
 .main-content {
   position: relative;
   color: #FFFFFF;
+  text-align: center;
   text-align: center;
 }
 
@@ -58,12 +60,19 @@ main {
   line-height: 1.5;
 }
 
+.about-content {
+  width: 85%;
+  display: flex;
+  position: absolute;
+  top: 45rem;
+  left: 7.5rem;
+}
+
 .about-items {
   position: absolute;
-  top: 50rem;
-  right: 10rem;
-  padding: 1.5rem;
-  border: 2px solid red;
+  top: 23%;
+  left: 63%;
+  padding: 1.2rem;
   text-align: justify;
   font-weight: 700;
 }
@@ -82,13 +91,12 @@ main {
 
 .row {
   display: inline-block;
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 50%;
   position: absolute;
-  top: 68rem;
-  right: 9rem;
+  top: 78%;
+  left: 50%;
 }
 
 .col-1 {
@@ -161,19 +169,16 @@ main {
 
 .mainimg-hero {
   position: absolute;
-  right: 8rem;
-  width: 75%;
+  top: 30rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50rem;
   margin-top: 5rem;
   z-index: 1;
 }
 
 .mainimg-picture {
-  display: inline-block;
-  width: 45%;
-  height: 30rem;
-  position: absolute;
-  top: 44rem;
-  left: 9.5rem;
+  height: 35rem;
 }
 
 /*# sourceMappingURL=style.css.map */

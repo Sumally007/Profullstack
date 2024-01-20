@@ -48,17 +48,15 @@
 
 .mainimg-hero{
     position: absolute;
-    right: 8rem;
-    width: 75%;
+    top: 30rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50rem;
     margin-top: 5rem;
     z-index: 1;
+    // border: 2px solid red;
 }
 
 .mainimg-picture{
-    display: inline-block;
-    width: 45%;
-    height: 30rem;
-    position: absolute;
-    top: 44rem;
-    left: 9.5rem;
+    height: 35rem;
 }
