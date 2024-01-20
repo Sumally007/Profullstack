@@ -1,0 +1,14 @@
+{
+  "name": "profullstack",
+  "version": "1.0.0",
+  "description": "practicing a project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "ismail",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.7"
+  }
+}

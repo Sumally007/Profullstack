@@ -1,0 +1,94 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 2rem;
+    align-items: center;
+    height: 4rem;
+    color: #fff;
+}
+
+main{
+    margin-top: 8rem;
+    width: 100vw;
+    height: 400vh;
+}
+
+.main-content{
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.heading-secondary{
+    margin-bottom: 1rem;
+    font-size: 3.33rem;
+}
+
+.heading-span{
+    background-image: linear-gradient(to right, #E02337, #BA18AA);
+    background-clip: text;
+    color: transparent;
+}
+.heading-paragraph{
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+.about-items{
+    position: absolute;
+    top: 50rem;
+    right: 10rem;
+    padding: 1.5rem;
+    border: 2px solid red;
+    text-align: justify;
+    font-weight: 700;
+}
+
+.heading-primary{
+    font-size: 2rem;
+    margin-bottom: .8rem;
+}
+
+.paragraph-about{
+    font-size: .8rem;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.row{
+    display: inline-block;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    position: absolute;
+    top: 68rem;
+    right: 9rem;
+}
+
+.col-1{
+    display: inline-block;
+    font-weight: 700;
+
+    .span-no{
+        font-size: 2.8rem;
+        font-weight: 700;
+        background-image: linear-gradient(to right, #E02337, #BA18AA);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .span-plas{
+        display: inline-block;
+        font-size: 1.8rem;
+        position: absolute;
+        background-image: linear-gradient(to right, #E02337, #BA18AA);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .text{
+        font-size: .7rem;
+    }
+}
