@@ -1,103 +1,64 @@
 .navigation{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.navigaton-content{
     display: flex;
     justify-content: space-between;
-    margin: 1.5rem 2rem;
     align-items: center;
-    height: 4rem;
-    color: #fff;
-}
-
-main{
-    width: 100vw;
-    margin-top: 8rem;
-    height: 200vh;
-    text-align: center;
-}
-
-.main-content{
-    position: relative;
-    color: #FFFFFF;
-    text-align: center;
-    text-align: center;
-}
-
-.heading-secondary{
-    margin-bottom: 1rem;
-    font-size: 3.33rem;
-}
-
-.heading-span{
-    background-image: linear-gradient(to right, #E02337, #BA18AA);
-    background-clip: text;
-    color: transparent;
-}
-.heading-paragraph{
-    margin-bottom: 3rem;
-    line-height: 1.5;
-}
-
-.about-content{
-    width: 85%;
-    display: flex;
-    position: absolute;
-    top: 45rem;
-    left: 7.5rem;
+    margin: 0 45px;
     
 }
 
-.about-items{
-    position: absolute;
-    top: 23%;
-    left: 63%;
-    padding: 1.2rem;
-    text-align: justify;
-    font-weight: 700;
-}
-
-.heading-primary{
-    font-size: 2rem;
-    margin-bottom: .8rem;
-}
-
-.paragraph-about{
-    font-size: .8rem;
-    line-height: 1.5;
-    font-style: italic;
-    margin-bottom: 2rem;
-}
-
-.row{
-    display: inline-block;
+.navigation-list{
+    width: 350px;
     display: flex;
     justify-content: space-between;
-    width: 50%;
-    position: absolute;
-    top: 78%;
-    left: 50%;
+    border: 1px solid red;
+    color: #ffff;
+}
+.main-header{
+    width: 100vw;
+    height: 75vh;
+    text-align: center;
+    position: relative;
 }
 
-.col-1{
-    display: inline-block;
-    font-weight: 700;
+.header-content{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
 
-    .span-no{
-        font-size: 2.8rem;
-        font-weight: 700;
-        background-image: linear-gradient(to right, #E02337, #BA18AA);
-        background-clip: text;
-        color: transparent;
-    }
+.about-section{
+    width: 100vw;
+    height: 145vh;
+}
 
-    .span-plas{
-        display: inline-block;
-        font-size: 1.8rem;
-        position: absolute;
-        background-image: linear-gradient(to right, #E02337, #BA18AA);
-        background-clip: text;
-        color: transparent;
-    }
+.about-content{
+    position: relative;
+}
 
-    .text{
-        font-size: .7rem;
-    }
+.section-purpose{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    position: relative;
+}
+
+.purpose-content{
+    width: 900px;
+    height: 640px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 219px;
+    border: 1px solid red;
 }
