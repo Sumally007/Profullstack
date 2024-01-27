@@ -22,13 +22,16 @@ body {
 .main-header {
   position: relative;
   width: 100vw;
+  height: 90vh;
   text-align: center;
   position: relative;
   background-color: black;
+  border: 1px solid red;
 }
 
 .navigation {
   width: 100vw;
+  border: 1px solid red;
 }
 
 .navigaton-content {
@@ -45,29 +48,30 @@ body {
 }
 
 .header-content {
-  margin-top: 200px;
-  padding: 50px;
+  padding-top: 180px;
 }
 
 .about-section {
   width: 100vw;
-  height: 165vh;
+  height: 185vh;
   text-align: center;
   background-color: black;
+  border: 1px solid red;
 }
 
 .about-content {
-  position: relative;
-  margin-bottom: 115px;
+  border: 1px solid red;
 }
 
 .about-us {
+  display: inline-block;
   color: white;
   position: absolute;
-  top: 800px;
-  left: 950px;
+  right: 235px;
+  top: 70px;
   font-weight: 700;
   text-align: justify;
+  border: 1px solid red;
 }
 
 .row {
@@ -75,25 +79,73 @@ body {
   justify-content: space-between;
   color: white;
   position: absolute;
-  top: 1150px;
-  left: 770px;
+  right: 235px;
+  top: 450px;
   width: 480px;
+  border: 1px solid red;
 }
 
 .section-purpose {
   width: 100vw;
-  height: 130vh;
+  height: 140vh;
   position: relative;
   background: linear-gradient(rgb(77, 75, 75), black);
 }
 
+.two-rows {
+  position: relative;
+}
+
 .purpose-content {
-  width: 1000px;
+  width: 60%;
   height: 820px;
   color: white;
-  position: absolute;
+  position: relative;
   top: 80px;
   left: 257px;
+  border: 1px solid red;
+}
+
+.section-cards {
+  width: 100vw;
+  height: 120vh;
+  padding: 100px 200px 100px 250px;
+  background-image: linear-gradient(to right, #E02337, #BA18AA);
+  color: white;
+}
+
+.card-container {
+  border: 1px solid lightgreen;
+  display: inline-block;
+}
+
+.card-introduction {
+  padding-bottom: 50px;
+}
+
+.row-cards {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.card-footer {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.section-bottom {
+  height: 80vh;
+  background-image: url(/img/BG.png);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+}
+
+.bottom-content {
+  padding-top: 150px;
+  padding-left: 250px;
 }
 
 a {
@@ -174,13 +226,18 @@ a {
   z-index: 5;
 }
 
+.image-1 {
+  position: relative;
+}
+
 .image {
   position: absolute;
-  top: 570px;
-  left: 260px;
+  top: -180px;
+  left: 211px;
   width: 700px;
-  height: 750px;
+  height: 780px;
   z-index: 4;
+  border: 1px solid red;
 }
 
 .heading-secondary {
@@ -205,8 +262,6 @@ a {
 }
 
 .plus {
-  position: absolute;
-  top: 9px;
   font-size: 30px;
   font-weight: 700;
   background-image: linear-gradient(to right, #E02337, #BA18AA);
@@ -244,6 +299,31 @@ a {
 
 .purpose-bnts {
   margin-top: 50px;
+}
+
+.heading-fourth {
+  margin-bottom: 20px;
+}
+
+.pic {
+  width: 300px;
+  height: 250px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-btn {
+  margin-bottom: 15px;
+}
+
+.card-col-1 {
+  background-color: rgb(34, 34, 34);
+}
+
+.section-bottom .firt-paragraph {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

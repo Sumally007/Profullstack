@@ -78,13 +78,18 @@ a{
     z-index: 5;
 }
 
+.image-1{
+    position: relative;
+}
+
 .image{
     position: absolute;
-    top: 570px;
-    left: 260px;
+    top: -180px;
+    left: 211px;
     width: 700px;
-    height: 750px;
+    height: 780px;
     z-index: 4;
+    border: 1px solid red;
 }
 
 
@@ -112,8 +117,6 @@ a{
 }
 
 .plus{
-    position: absolute;
-    top: 9px;
     font-size: 30px;
     font-weight: 700;
     background-image: linear-gradient(to right, #E02337, #BA18AA);
@@ -149,4 +152,31 @@ a{
 }
 .purpose-bnts{
     margin-top: 50px;
+}
+
+
+.heading-fourth{
+    margin-bottom: 20px;
+}
+
+.pic{
+    width: 300px;
+    height: 250px;
+}
+
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.margin-bottom-btn{
+    margin-bottom: 15px;
+}
+
+
+.card-col-1{
+    background-color: rgb(34, 34, 34);
+}
+
+.section-bottom .firt-paragraph{
+    margin-bottom: 40px;
 }
