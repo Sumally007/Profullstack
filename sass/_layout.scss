@@ -5,12 +5,12 @@
     text-align: center;
     position: relative;
     background-color: black;
-    border: 1px solid red;
+    
 }
 
 .navigation{
     width: 100vw;
-    border: 1px solid red;
+    
 }
 
 .navigaton-content{
@@ -35,12 +35,6 @@
     height: 185vh;
     text-align: center;
     background-color: black;
-    border: 1px solid red;
-}
-
-.about-content{
-    // height: 185vh;
-    border: 1px solid red;
 }
 
 .about-us{
@@ -51,7 +45,7 @@
     top: 70px;
     font-weight: 700;
     text-align: justify;
-    border: 1px solid red;
+    
 }
 
 
@@ -63,7 +57,7 @@
     right: 235px;
     top: 450px;
     width: 480px;
-    border: 1px solid red;
+    
 }
 
 .section-purpose{
@@ -84,7 +78,7 @@
     position: relative;
     top: 80px;
     left: 257px;
-    border: 1px solid red;
+    
 }
 
 .section-cards{
@@ -96,7 +90,6 @@
 }
 
 .card-container{
-    border: 1px solid lightgreen;
     display: inline-block;
     
 }
@@ -108,7 +101,7 @@
     width: 1000px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    
     
 }
 
@@ -128,8 +121,4 @@
 .bottom-content{
    padding-top: 150px;
    padding-left: 250px;
-}
-
-.section-bottom .firt-paragraph{
-
 }

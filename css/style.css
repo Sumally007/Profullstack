@@ -26,12 +26,10 @@ body {
   text-align: center;
   position: relative;
   background-color: black;
-  border: 1px solid red;
 }
 
 .navigation {
   width: 100vw;
-  border: 1px solid red;
 }
 
 .navigaton-content {
@@ -56,11 +54,6 @@ body {
   height: 185vh;
   text-align: center;
   background-color: black;
-  border: 1px solid red;
-}
-
-.about-content {
-  border: 1px solid red;
 }
 
 .about-us {
@@ -71,7 +64,6 @@ body {
   top: 70px;
   font-weight: 700;
   text-align: justify;
-  border: 1px solid red;
 }
 
 .row {
@@ -82,7 +74,6 @@ body {
   right: 235px;
   top: 450px;
   width: 480px;
-  border: 1px solid red;
 }
 
 .section-purpose {
@@ -103,7 +94,6 @@ body {
   position: relative;
   top: 80px;
   left: 257px;
-  border: 1px solid red;
 }
 
 .section-cards {
@@ -115,7 +105,6 @@ body {
 }
 
 .card-container {
-  border: 1px solid lightgreen;
   display: inline-block;
 }
 
@@ -127,7 +116,6 @@ body {
   width: 1000px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .card-footer {
@@ -237,7 +225,6 @@ a {
   width: 700px;
   height: 780px;
   z-index: 4;
-  border: 1px solid red;
 }
 
 .heading-secondary {
