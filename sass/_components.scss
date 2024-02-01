@@ -198,3 +198,56 @@ a{
 .card-col-1-port{
     background-color: rgb(34, 34, 34);
 }
+
+.contact-intro h1{
+    color: #E02337;
+}
+
+.contact-intro h4{
+    font-size: 20px;
+}
+
+.contact-intro a{
+    color: #E02337;
+}
+
+input{
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 20px;
+
+    &:focus{
+        border: 1px solid #E02337;
+    }
+}
+
+#first{
+    width: 49%;
+}
+
+#last{
+    width: 49%;
+}
+
+#same{
+    width: 100%;
+}
+textarea{
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+textarea:focus{
+    border: 1px solid #E02337;
+}
+
+.form-containts h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000000f8;
+}

@@ -124,7 +124,7 @@
 }
 
 .portfolio{
-    background-color: #1b1b1b;;
+    background-color: #1b1b1b;
     color: #ffff;
 }
 
@@ -137,4 +137,26 @@
     width: 65%;
     margin: 0 auto;
     padding: 50px 0;
+}
+
+.contact{
+    background-color: #1b1b1b;
+    color: #ffff;
+    padding-bottom: 50px;
+}
+
+.contact-details{
+    width: 100vw;
+}
+
+.contact-intro{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.form-containts{
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffff;
 }
