@@ -179,3 +179,22 @@ a{
 .section-bottom .firt-paragraph{
     margin-bottom: 40px;
 }
+
+.navigation-port{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.row-cards-port{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.card-col-1-port{
+    background-color: rgb(34, 34, 34);
+}
