@@ -19,161 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-.main-header {
-  position: relative;
-  width: 100vw;
-  height: 90vh;
-  text-align: center;
-  position: relative;
-  background-color: black;
-}
-
-.navigation {
-  width: 100vw;
-}
-
-.navigaton-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 50px 0 50px;
-}
-
-.navigation-list {
-  display: flex;
-  justify-content: space-between;
-  width: 350px;
-}
-
-.header-content {
-  padding-top: 180px;
-}
-
-.about-section {
-  width: 100vw;
-  height: 185vh;
-  text-align: center;
-  background-color: black;
-}
-
-.about-us {
-  display: inline-block;
-  color: white;
-  position: absolute;
-  right: 235px;
-  top: 70px;
-  font-weight: 700;
-  text-align: justify;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  position: absolute;
-  right: 235px;
-  top: 450px;
-  width: 480px;
-}
-
-.section-purpose {
-  width: 100vw;
-  height: 140vh;
-  position: relative;
-  background: linear-gradient(rgb(77, 75, 75), black);
-}
-
-.two-rows {
-  position: relative;
-}
-
-.purpose-content {
-  width: 60%;
-  height: 820px;
-  color: white;
-  position: relative;
-  top: 80px;
-  left: 257px;
-}
-
-.section-cards {
-  width: 100vw;
-  height: 120vh;
-  padding: 100px 200px 100px 250px;
-  background-image: linear-gradient(to right, #E02337, #BA18AA);
-  color: white;
-}
-
-.card-container {
-  display: inline-block;
-}
-
-.card-introduction {
-  padding-bottom: 50px;
-}
-
-.row-cards {
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card-footer {
-  padding-top: 20px;
-  padding-left: 15px;
-}
-
-.section-bottom {
-  height: 80vh;
-  background-image: url(/img/BG.png);
-  background-position: bottom;
-  background-size: cover;
-  color: white;
-}
-
-.bottom-content {
-  padding-top: 150px;
-  padding-left: 250px;
-}
-
-.portfolio {
-  background-color: #1b1b1b;
-  color: white;
-}
-
-.portfolio-container {
-  width: 100%;
-  background-color: #1b1b1b;
-}
-
-.portfolio-contents {
-  width: 65%;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-
-.contact {
-  background-color: #1b1b1b;
-  color: white;
-  padding-bottom: 50px;
-}
-
-.contact-details {
-  width: 100vw;
-}
-
-.contact-intro {
-  margin-bottom: 35px;
-  text-align: center;
-}
-
-.form-containts {
-  width: 40%;
-  margin: 0 auto;
-  padding: 30px;
-  background-color: white;
-}
-
 a {
   text-decoration: none;
 }
@@ -193,6 +38,12 @@ a {
   width: 100px;
   height: 50px;
   margin-right: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  body > header > nav > div > a.btn.btn-colored {
+    display: none;
+  }
 }
 
 .btn:link,
@@ -245,24 +96,28 @@ a {
 }
 
 .mockup {
-  position: relative;
-  right: 30px;
   width: 1100px;
   height: 750px;
-  z-index: 5;
 }
-
-.image-1 {
-  position: relative;
+@media screen and (max-width: 600px) {
+  .mockup {
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
 }
 
 .image {
-  position: absolute;
-  top: -180px;
-  left: 211px;
   width: 700px;
   height: 780px;
-  z-index: 4;
+  margin-top: -180px;
+  margin-left: -250px;
+}
+@media screen and (max-width: 600px) {
+  .image {
+    display: none;
+  }
 }
 
 .heading-secondary {
@@ -310,6 +165,11 @@ a {
   justify-content: space-between;
   margin-top: 35px;
 }
+@media screen and (max-width: 600px) {
+  .row-1-of-2 {
+    flex-direction: column;
+  }
+}
 
 .row-2-of-2 {
   display: flex;
@@ -331,8 +191,8 @@ a {
 }
 
 .pic {
-  width: 300px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
 }
 
 .margin-bottom {
@@ -344,6 +204,7 @@ a {
 }
 
 .card-col-1 {
+  width: 30%;
   background-color: rgb(34, 34, 34);
 }
 
@@ -421,6 +282,165 @@ textarea:focus {
   font-weight: 700;
   margin-bottom: 15px;
   color: rgba(0, 0, 0, 0.9725490196);
+}
+
+.main-header {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 50px;
+}
+
+.navigation {
+  width: 100vw;
+}
+
+.navigaton-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px 0 50px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+@media screen and (max-width: 600px) {
+  .navigation-list {
+    display: none;
+  }
+}
+
+.header-content {
+  padding-top: 180px;
+}
+
+.about-section {
+  text-align: center;
+  background-color: black;
+}
+
+.about-us {
+  color: white;
+  font-weight: 700;
+  text-align: justify;
+  margin-left: 900px;
+  margin-top: -500px;
+}
+@media screen and (max-width: 600px) {
+  .about-us {
+    margin-left: 0;
+    margin-top: 50px;
+    display: inline-block;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 480px;
+  flex-wrap: nowrap;
+  margin-left: 750px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 600px) {
+  .row {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
+.section-purpose {
+  border: 1px solid rgba(250, 250, 250, 0.367);
+  padding: 50px auto;
+  background: linear-gradient(rgb(77, 75, 75), black);
+}
+
+.purpose-content {
+  color: white;
+  width: 65%;
+  margin: 50px auto;
+}
+
+.section-cards {
+  background-image: linear-gradient(to right, #E02337, #BA18AA);
+  color: white;
+  border: 1px solid rgba(250, 250, 250, 0.367);
+}
+
+.card-container {
+  width: 65%;
+  margin: 50px auto;
+  background-image: linear-gradient(to right, #E02337, #BA18AA);
+}
+
+.card-introduction {
+  padding-bottom: 50px;
+}
+
+.row-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.card-footer {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.section-bottom {
+  background-image: url(/img/BG.png);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.bottom-content {
+  padding-top: 150px;
+  padding-left: 250px;
+}
+
+.portfolio {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.portfolio-container {
+  width: 100%;
+  background-color: #1b1b1b;
+}
+
+.portfolio-contents {
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.contact {
+  background-color: #1b1b1b;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.contact-details {
+  width: 100vw;
+}
+
+.contact-intro {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.form-containts {
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
