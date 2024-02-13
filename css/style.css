@@ -419,15 +419,10 @@ textarea:focus {
 }
 @media screen and (max-width: 600px) {
   .row {
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 50px;
     padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 348px) {
-  .row {
-    width: 300px;
-    margin-left: 15px;
+    width: 350px;
   }
 }
 
