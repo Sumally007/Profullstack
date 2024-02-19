@@ -57,10 +57,13 @@ a {
   display: inline-block;
   color: white;
 }
-@media screen and (max-width: 348px) {
+@media screen and (max-width: 448px) {
   .btn:link,
   .btn:visited {
     padding: 10px 15px;
+    width: 100%;
+    display: inline;
+    margin-bottom: 15px;
   }
 }
 
@@ -68,6 +71,12 @@ a {
 .btn-colored:visited {
   background-image: linear-gradient(to right, #E02337, #BA18AA);
   color: white;
+}
+@media screen and (max-width: 448px) {
+  .btn-colored:link,
+  .btn-colored:visited {
+    width: 4px;
+  }
 }
 
 .btn-colored:hover {
@@ -213,6 +222,12 @@ a {
 .purpose-bnts {
   margin-top: 50px;
 }
+@media screen and (max-width: 448px) {
+  .purpose-bnts {
+    margin: 30px 40px;
+  }
+}
+
 .heading-fourth {
   margin-bottom: 20px;
 }
